@@ -1,6 +1,6 @@
 # 🥤 VendingMachine App
 
-A responsive and interactive vending machine built with React and Vite. Users can insert virtual coins, view available products, and make selections with real-time feedback.
+A responsive and interactive vending machine built with React and Vite and tested with Playwright. Users can insert virtual quarters, view available products, and make purchases with real-time feedback.
 
 ---
 
@@ -14,10 +14,11 @@ A responsive and interactive vending machine built with React and Vite. Users ca
 
 ## 🛠️ Tech Stack
 
-React + TypeScript Frontend components and logic
-Vite Lightning-fast build and dev server
-CSS Styling and layout
+- React + TypeScript Frontend components and logic
+- Vite Lightning-fast build and dev server
+- CSS Styling and layout
 
+```text
 📁 File Structure
 ├── assets/
 │ └── money/
@@ -40,20 +41,24 @@ CSS Styling and layout
 ├── package-lock.json
 ├── tsconfig.json
 └── vite.config.ts
+```
 
 🧪 Run Locally
 
-Clone the repository
+**Clone the repository**
 
 git clone https://github.com/michaelmaio/VendingMachine.git
 cd VendingMachine
 
-Install dependencies
+**Install dependencies**
 
 npm install
 
-Start the development server
+**Start the development server**
 
 npm run dev
 
-Browse to http://localhost:5173/
+**Browse to http://localhost:5173/**
+
+**Run the tests**
+npx playwright test
