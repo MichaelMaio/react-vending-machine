@@ -23,7 +23,7 @@ const MoneySlot = ({ amountInserted, onInsertQuarter }: Props) => {
 
       {/* Display the current amount of money inserted */}
       <div className="money-display" data-testid="money-display">
-        ${amountInserted}
+        ${amountInserted.toFixed(2)}
       </div>
     </div>
   );

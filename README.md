@@ -24,9 +24,9 @@ CSS Styling and layout
 │ └── images/
 │ └── quarter.png
 │ └── money/
-│ └── images/
-│ ├── coke.png
-│ └── pepsi.png
+│ ├── images/
+│ | ├── coke.png
+│ | └── pepsi.png
 ├── src/
 │ ├── components/
 │ │ ├── ErrorMessage.tsx

@@ -21,9 +21,9 @@ const ProductList = ({ products, onPurchase }: Props) => {
     <table data-testid="product-table"> {/* Table element for displaying products */}
       <thead> {/* Table header row */}
         <tr>
-          <th>Product</th>
-          <th>Price</th>
-          <th>Remaining</th>
+          <th data-testid="product-header">Product</th>
+          <th data-testid="price-header">Price</th>
+          <th data-testid="remaining-header">Remaining</th>
         </tr>
       </thead>
       <tbody>
