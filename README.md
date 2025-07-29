@@ -14,35 +14,11 @@ A responsive and interactive vending machine built with React and Vite and teste
 
 ## 🛠️ Tech Stack
 
-- React + TypeScript Frontend components and logic
-- Vite Lightning-fast build and dev server
-- CSS Styling and layout
+- React + TypeScript: Frontend components and logic.
+- Vite: Lightning-fast build and dev server.
+- CSS: Styling and layout.
 
 ```text
-📁 File Structure
-├── assets/
-│ └── money/
-│ └── images/
-│ └── quarter.png
-│ └── money/
-│ ├── images/
-│ | ├── coke.png
-│ | └── pepsi.png
-├── src/
-│ ├── components/
-│ │ ├── ErrorMessage.tsx
-│ │ ├── MoneySlot.tsx
-│ │ └── ProductsList.tsx
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── styles.css
-├── index.html
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
 🧪 Run Locally
 
 **Clone the repository**
@@ -62,3 +38,4 @@ npm run dev
 
 **Run the tests**
 npx playwright test
+```
