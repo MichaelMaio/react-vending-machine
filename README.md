@@ -1,30 +1,30 @@
-# 🥤 VendingMachine App
+# web-vending-machine app
 
 A responsive and interactive vending machine built with React and Vite and tested with Playwright. Users can insert virtual quarters, view available products, and make purchases with real-time feedback.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 💰 **MoneySlot**: Insert virtual quarters to pay for products.
-- 📦 **ProductsList**: Display available products like Coke and Pepsi with images.
-- ⚠️ **ErrorMessage**: Real-time validation and error messaging (e.g., insufficient funds, out of stock product).
+- **MoneySlot**: Insert virtual quarters to pay for products.
+- **ProductsList**: Display available products like Coke and Pepsi with images.
+- **ErrorMessage**: Real-time validation and error messaging (e.g., insufficient funds, out of stock product).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React + TypeScript: Frontend components and logic.
-- Vite: Lightning-fast build and dev server.
+- Vite: Build and dev server.
 - CSS: Styling and layout.
 
 ```text
-🧪 Run Locally
+Run Locally
 
 **Clone the repository**
 
-git clone https://github.com/michaelmaio/VendingMachine.git
-cd VendingMachine
+git clone https://github.com/michaelmaio/web-vending-machine.git
+cd web-vending-machine
 
 **Install dependencies**
 
