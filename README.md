@@ -1,4 +1,4 @@
-# web-vending-machine app
+# react-vending-machine app
 
 A responsive and interactive vending machine built with React and Vite and tested with Playwright. Users can insert virtual quarters, view available products, and make purchases with real-time feedback.
 
@@ -23,8 +23,8 @@ Run Locally
 
 **Clone the repository**
 
-git clone https://github.com/michaelmaio/web-vending-machine.git
-cd web-vending-machine
+git clone https://github.com/michaelmaio/react-vending-machine.git
+cd react-vending-machine
 
 **Install dependencies**
 
